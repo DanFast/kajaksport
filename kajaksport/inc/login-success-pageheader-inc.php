@@ -1,9 +1,21 @@
+<!-- Facebook iframe -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Page Content -->
 <div class="container" style="padding-top: 40px">
     <div class="page-header">
         <div class="media">
             <div class="media-left">
                 <a href="#">
-                    <img style="max-height: 100px; max-width: 100px" class="media-object" src="img/profilbild_Daniel.jpg" alt="Profilbild">
+                    <?php echo"<img style='max-height: 100px; max-width: 100px' class='media-object' src='".$profilbild."' alt='Profilbild'>"?>
                 </a>
             </div>
             <div class="media-body">

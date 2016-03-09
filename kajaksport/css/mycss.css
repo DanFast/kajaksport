@@ -1,0 +1,170 @@
+
+.navbar-brand {
+
+}
+.navbar{
+    background-color: green;
+}
+.imgbrand {
+    height: 40px;
+    width: 40px;
+    margin-top: -9px;
+}
+
+.navbar-default {
+    background-color: #008400;
+    border-color: #050505;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #050505;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #050505;
+}
+.navbar-default .navbar-toggle {
+    border-color: #050505;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #050505;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #050505;
+    }
+}
+@media (max-width: 400px) {
+    h1{font-size: 15px;}
+}
+
+h3 {
+    display:inline;
+}
+
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    margin: 0;
+    padding: 0 25px 25px 0;
+    text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* ------------------- Sponsors Styling ------------------- */
+@media only screen and (max-width: 1800px) {
+    #sponsor1 {
+        display: none;
+    }
+}
+
+/* ------------------- Macht das ganze Panel clickable + Glyphicons(Profil bearbeiten) ------------------- */
+
+
+.panel-heading .accordion-toggle h4:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    content: "\2212";
+    float: right;
+    color: #ffffff;
+    overflow: no-display;
+}
+.panel-heading .accordion-toggle.collapsed h4:after {
+    /* symbol for "collapsed" panels */
+    content: "\002b";
+}
+a.accordion-toggle{
+    text-decoration: none;
+}
+
+.panel-heading:hover {
+    background-color: #449D44 !important;
+}

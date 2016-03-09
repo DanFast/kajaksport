@@ -6,6 +6,7 @@ session_start();
 <?php
 include "inc/head-tag-inc.php";
 ?>
+
 <body>
 
 <?php

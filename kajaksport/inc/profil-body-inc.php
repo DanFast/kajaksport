@@ -68,7 +68,7 @@
                     <span class="glyphicon glyphicon-wrench" aria-hidden="true" style="padding-left: 5px"></span>
                 </a>
 
-                <a role="button" href="login-success.php" class="btn btn-success col-lg-4 col-lg-offset-3">
+                <a role="button" href="index.php" class="btn btn-success col-lg-4 col-lg-offset-3">
                     <span class="glyphicon glyphicon-backward" aria-hidden="true" style="padding-right: 5px"></span> Zurück
                 </a>
             </div>

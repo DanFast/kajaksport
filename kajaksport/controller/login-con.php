@@ -20,8 +20,7 @@ if(isset($_POST["loginEmail"]) && isset($_POST["loginPasswort"]) ) {
 
     if ($result == 0) {
 
-        //$link = "login-fail.php";
-        echo "Fehler bei Login";
+        $link = "login-fail.php";
 
     } else {
 

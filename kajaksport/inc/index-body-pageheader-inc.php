@@ -23,7 +23,7 @@
     <!-- Heading Row -->
     <div class="row">
         <div class="col-md-8">
-            <img class="img-responsive img-rounded" src="img/fotowand.png" alt="Bild" style="height: 260px">
+            <img class="img-responsive img-rounded" src="img/fotowandNeu.jpg" alt="Bild" style="height: auto">
         </div>
         <!-- /.col-md-8 -->
         <div class="col-md-4">

@@ -3,7 +3,7 @@
 
 <!-- Content Aktuell Row -->
     <div class="row" >
-        <div class="col-md-6">
+        <div class="col-md-6 hidden-xs">
             <h3 class="hidden-xs">Das Fenster zu unserer Facebookseite:</h3>
             <div class="fb-page" data-href="https://www.facebook.com/WFV-Welser-Faltbootverein-116859331726727" data-tabs="timeline" data-width="500" data-height="650" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>
         </div>

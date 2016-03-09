@@ -25,29 +25,42 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.538462">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="42" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
-                <marker date="1457546938059" expanded="true" signature="462:507" placeholder="SELECT * FRO... mitglied" />
+                <marker date="1457558245735" expanded="true" signature="463:508" placeholder="SELECT * FRO... mitglied" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profil-bearbeiten.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profil-bearbeiten.php">
+      <file leaf-file-name="login-fail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-fail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.384615">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="46" />
               <folding>
-                <marker date="1457546040894" expanded="true" signature="443:488" placeholder="SELECT * FRO... mitglied" />
+                <marker date="1457558351798" expanded="true" signature="479:524" placeholder="SELECT * FRO... mitglied" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profil-bearbeiten-body-inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/profil-bearbeiten-body-inc.php">
+      <file leaf-file-name="index-body-nav-loginfail-inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/index-body-nav-loginfail-inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mycss.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mycss.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -56,16 +69,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profilbild-bearbeiten-con.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/profilbild-bearbeiten-con.php">
+      <file leaf-file-name="index-body-pageheader-inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/index-body-pageheader-inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6349384">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
               <folding>
-                <marker date="1457547705491" expanded="true" signature="2422:2476" placeholder="SELECT profi... mitglied" />
-                <marker date="1457547705491" expanded="true" signature="2861:2964" placeholder="INSERT INTO kajaksport.mitglied... " />
-                <marker date="1457547705491" expanded="true" signature="3043:3161" placeholder="INSERT INTO " />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-body-aktuell-events-inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/index-body-aktuell-events-inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26651737">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,9 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/inc/header.php" />
-        <option value="$PROJECT_DIR$/fahrtenbuch.php" />
-        <option value="$PROJECT_DIR$/login-fail.php" />
         <option value="$PROJECT_DIR$/bericht-schreiben.php" />
         <option value="$PROJECT_DIR$/inc/login-inc.php" />
         <option value="$PROJECT_DIR$/inc/head-inc-login-success.php" />
@@ -110,22 +128,25 @@
         <option value="$PROJECT_DIR$/inc/event-eintrag-body-inc.php" />
         <option value="$PROJECT_DIR$/inc/event-calendar-inc.php" />
         <option value="$PROJECT_DIR$/inc/nav-login-success.php" />
-        <option value="$PROJECT_DIR$/inc/index-body-aktuell-events-inc.php" />
         <option value="$PROJECT_DIR$/css/mycss.css" />
         <option value="$PROJECT_DIR$/controller/profil-bearbeiten-con.php" />
-        <option value="$PROJECT_DIR$/controller/login-con.php" />
-        <option value="$PROJECT_DIR$/inc/index-body-pageheader-inc.php" />
         <option value="$PROJECT_DIR$/login-success.php" />
         <option value="$PROJECT_DIR$/inc/login-success-pageheader-inc.php" />
         <option value="$PROJECT_DIR$/inc/profil-bearbeiten-body-inc.php" />
         <option value="$PROJECT_DIR$/events-anzeigen.php" />
         <option value="$PROJECT_DIR$/profil-bearbeiten.php" />
         <option value="$PROJECT_DIR$/profil.php" />
-        <option value="$PROJECT_DIR$/event-eintrag.php" />
         <option value="$PROJECT_DIR$/pinnwand-eintrag.php" />
-        <option value="$PROJECT_DIR$/inc/profil-body-inc.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controller/profilbild-bearbeiten-con.php" />
+        <option value="$PROJECT_DIR$/event-eintrag.php" />
+        <option value="$PROJECT_DIR$/inc/profil-body-inc.php" />
+        <option value="$PROJECT_DIR$/controller/login-con.php" />
+        <option value="$PROJECT_DIR$/inc/head-tag-loginfail-inc.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/login-fail.php" />
+        <option value="$PROJECT_DIR$/inc/index-body-nav-loginfail-inc.php" />
+        <option value="$PROJECT_DIR$/inc/index-body-pageheader-inc.php" />
+        <option value="$PROJECT_DIR$/inc/index-body-aktuell-events-inc.php" />
       </list>
     </option>
   </component>
@@ -171,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,82 +210,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kajaksport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -298,16 +245,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\kajaksport\inc" />
+      <recent name="C:\Users\Fastmeister\PhpstormProjects\kajaksport" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\kajaksport\img" />
       <recent name="E:\xampp\htdocs\kajaksport\js" />
       <recent name="E:\xampp\htdocs\kajaksport\css" />
       <recent name="E:\xampp\htdocs\kajaksport" />
       <recent name="E:\xampp\htdocs\kajaksport\assets" />
-      <recent name="C:\Users\Fastmeister\PhpstormProjects\kajaksport\controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\kajaksport\inc" />
-      <recent name="C:\Users\Fastmeister\PhpstormProjects\kajaksport" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
@@ -527,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/head-tag-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17114094">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/index-body-footer-inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17114094">
@@ -570,20 +510,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mycss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/index-body-aktuell-events-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18955731">
-          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/profil-bearbeiten-body-js.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34228188">
@@ -612,18 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/index-body-js-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88590604">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/email-bearbeiten-con.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,23 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/index-body-nav-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.23077">
-          <caret line="59" column="59" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-fail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03807391">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,25 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/index-body-pageheader-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/login-con.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.461538">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1457537955873" expanded="true" signature="343:395" placeholder="SELECT passw..mitglied..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,46 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43784994">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <marker date="1457545178449" expanded="true" signature="638:673" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="814:1015" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="857:961" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1054:1071" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1072:2703" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1127:1409" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1233:1386" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1336:1353" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1448:1734" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1549:1711" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1661:1678" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1773:2051" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1870:2028" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="1978:1995" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="2090:2374" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="2190:2351" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="2301:2318" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="2413:2684" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="2503:2661" placeholder="..." />
-            <marker date="1457545178449" expanded="true" signature="2611:2628" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/mysqli-con.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03807391">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <marker date="1457546102695" expanded="true" signature="443:488" placeholder="SELECT * FRO... mitglied" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,17 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event-eintrag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <marker date="1457546102626" expanded="true" signature="443:488" placeholder="SELECT * FRO... mitglied" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.807693">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,44 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.538462">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <marker date="1457546102620" expanded="true" signature="443:488" placeholder="SELECT * FRO... mitglied" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/profil-body-inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457546102641" expanded="true" signature="285:302" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="303:543" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="352:409" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="454:528" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="570:793" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="619:677" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="722:778" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="820:1056" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="869:929" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="974:1041" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1083:1345" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1132:1192" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1237:1330" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1391:1404" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1405:1477" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1440:1477" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1636:1728" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1789:1802" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1803:2002" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1838:1930" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="1965:2002" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="2180:2717" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="2292:2444" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="2398:2415" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="2553:2698" placeholder="..." />
-            <marker date="1457546102641" expanded="true" signature="2644:2662" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,17 +605,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03807391">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profil-bearbeiten.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.384615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <marker date="1457546040894" expanded="true" signature="443:488" placeholder="SELECT * FRO... mitglied" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,25 +624,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/controller/profilbild-bearbeiten-con.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.538462">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="42" />
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event-eintrag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.423077">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
-            <marker date="1457546938059" expanded="true" signature="462:507" placeholder="SELECT * FRO... mitglied" />
+            <marker date="1457546102695" expanded="true" signature="443:488" placeholder="SELECT * FRO... mitglied" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/profilbild-bearbeiten-con.php">
+    <entry file="file://$PROJECT_DIR$/inc/profil-body-inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6349384">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state vertical-scroll-proportion="-27.153847">
+          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
           <folding>
-            <marker date="1457547705491" expanded="true" signature="2422:2476" placeholder="SELECT profi... mitglied" />
-            <marker date="1457547705491" expanded="true" signature="2861:2964" placeholder="INSERT INTO kajaksport.mitglied... " />
-            <marker date="1457547705491" expanded="true" signature="3043:3161" placeholder="INSERT INTO " />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/login-con.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <marker date="1457558245722" expanded="true" signature="343:395" placeholder="SELECT passw..mitglied..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/head-tag-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/mysqli-con.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03807391">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/index-body-js-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88577825">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/index-body-nav-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6153846">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-fail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <marker date="1457558351798" expanded="true" signature="479:524" placeholder="SELECT * FRO... mitglied" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1457558245735" expanded="true" signature="463:508" placeholder="SELECT * FRO... mitglied" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/index-body-nav-loginfail-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/index-body-pageheader-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/index-body-aktuell-events-inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26651737">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

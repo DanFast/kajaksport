@@ -1,4 +1,4 @@
-
+<!-- Facebook iframe -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -6,7 +6,8 @@
         js = d.createElement(s); js.id = id;
         js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.5";
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 
 <div class="container" style="padding-top: 20px">
@@ -22,7 +23,7 @@
     <!-- Heading Row -->
     <div class="row">
         <div class="col-md-8">
-            <img class="img-responsive img-rounded" src="img/fotowand.png" alt="Bild" style="height: 260px">
+            <img class="img-responsive img-rounded" src="img/fotowandNeu.jpg" alt="Bild" style="height: auto">
         </div>
         <!-- /.col-md-8 -->
         <div class="col-md-4">

@@ -28,15 +28,18 @@ if(isset($_POST["loginEmail"]) && isset($_POST["loginPasswort"]) ) {
             $_SESSION['emailSession'] = $_POST["loginEmail"];
             $_SESSION['login'] = "ok";
 
-            $link = "login-success.php";
+            //Wenn Passwort und email stimmen, dann Loginbereich
+            $link = "index.php";
 
 
         }else{
             $link = "login-fail.php";
+
         }
     }
 }else{
     $link = "login-fail.php";
+
 }
 $host  = htmlspecialchars($_SERVER["HTTP_HOST"]);
 $uri   = "/kajaksport/";

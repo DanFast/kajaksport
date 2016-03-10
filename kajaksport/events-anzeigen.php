@@ -10,7 +10,9 @@ include "inc/head-tag-inc.php";
 
 <?php
 if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
+
     $email = $_SESSION["emailSession"];
+
     include "inc/nav-login-success.php";
     include "inc/event-calendar-inc.php";
     include "inc/index-body-footer-inc.php";

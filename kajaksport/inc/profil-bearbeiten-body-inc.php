@@ -1,33 +1,8 @@
-<?php
-$email = $_SESSION["emailSession"];
-
-include "controller/mysqli-con.php";
-
-$sql = "SELECT * FROM mitglied WHERE email = '$email'";
-
-    $erg = $mysqli->query($sql);
-    $data = $erg->fetch_array();
-
-
-    $nachname = $data['nachname'];
-    $vorname = $data['vorname'];
-    $passwort = $data['passwort'];
-    $telefon = $data['telefon'];
-    $strasse = $data['strasse'];
-    $nummer = $data['nummer'];
-    $plz = $data['plz'];
-    $ort = $data['ort'];
-    $profilbild = $data['profilbild'];
-    $beschreibung1 = $data['beschreibung1'];
-    $beschreibung2 = $data['beschreibung2'];
-    $foto1 = $data['foto1'];
-    $foto2 = $data['foto2'];
-    $mysqli->close();
-?>
-
 <div class="container">
 
     <div class="panel-group" id="accordion">
+
+        <!-- Panel Profilbild ändern -->
         <div class="panel panel-success">
             <div class="panel-heading" style="background-color: #5BB85D">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
@@ -66,7 +41,7 @@ $sql = "SELECT * FROM mitglied WHERE email = '$email'";
             </div>
         </div>
 
-
+        <!-- Panel Passwort ändern -->
         <div class="panel panel-success">
             <div class="panel-heading" style="background-color: #5BB85D">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
@@ -100,7 +75,7 @@ $sql = "SELECT * FROM mitglied WHERE email = '$email'";
             </div>
         </div>
 
-
+        <!-- Panel Email ändern -->
         <div class="panel panel-default">
             <div class="panel-heading" style="background-color: #5BB85D">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
@@ -134,6 +109,7 @@ $sql = "SELECT * FROM mitglied WHERE email = '$email'";
             </div>
         </div>
 
+        <!-- Panel Kontaktdaten ändern -->
         <div class="panel panel-default">
             <div class="panel-heading" style="background-color: #5BB85D">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
@@ -176,6 +152,7 @@ $sql = "SELECT * FROM mitglied WHERE email = '$email'";
             </div>
         </div>
 
+        <!-- Panel Beschreibung ändern -->
         <div class="panel panel-default">
             <div class="panel-heading" style="background-color: #5BB85D">
                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">

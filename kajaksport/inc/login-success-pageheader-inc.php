@@ -15,7 +15,7 @@
         <div class="media">
             <div class="media-left">
                 <a href="#">
-                    <?php echo"<img style='max-height: 100px; max-width: 100px' class='media-object' src='".$profilbild."' alt='Profilbild'>"?>
+                    <?php echo"<img style='max-height: 100px; max-width: 100px' class='media-object img-rounded' src='".$profilbild."' alt='Profilbild'>"?>
                 </a>
             </div>
             <div class="media-body">
@@ -34,18 +34,18 @@
                     </a>
                 </div>
                 <div class="col-lg-2">
-                    <a href="bericht-schreiben.php" type="button" class="btn btn-success btn-block">
-                        Bericht schreiben <span class="glyphicon glyphicon-pencil" aria-hidden="true"  style="padding-left: 5px"></span>
+                    <a href="bericht.php" type="button" class="btn btn-success btn-block">
+                        Berichte anzeigen <span class="glyphicon glyphicon-pencil" aria-hidden="true"  style="padding-left: 5px"></span>
                     </a>
                 </div>
                 <div class="col-lg-2">
-                    <a href="event-eintrag.php" type="button" class="btn btn-success btn-block">
-                        Event eintragen <span class="glyphicon glyphicon-copy" aria-hidden="true"  style="padding-left: 5px"></span>
+                    <a href="../event.php" type="button" class="btn btn-success btn-block">
+                        Events anzeigen <span class="glyphicon glyphicon-copy" aria-hidden="true"  style="padding-left: 5px"></span>
                     </a>
                 </div>
                 <div class="col-lg-2">
-                    <a href="pinnwand-eintrag.php" type="button" class="btn btn-success btn-block">
-                        Pinnwandeintrag <span class="glyphicon glyphicon-pushpin" aria-hidden="true"  style="padding-left: 5px"></span>
+                    <a href="pinnwand.php" type="button" class="btn btn-success btn-block">
+                        Pinnwand anzeigen <span class="glyphicon glyphicon-pushpin" aria-hidden="true"  style="padding-left: 5px"></span>
                     </a>
                 </div>
                 <div class="col-lg-2">
@@ -55,4 +55,6 @@
                 </div>
             </div>
         </div>
+        <!--Section wegen Navbaranpassung -->
+        <section class="section" id="aktuell" style="padding-bottom: 40px"></section>
     </div>

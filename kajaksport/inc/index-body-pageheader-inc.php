@@ -12,9 +12,8 @@
 
 <div class="container" style="padding-top: 20px">
     <div class="page-header">
-        <br><h1 class=""><small>Der </small>Welser Faltbootverein <small>freut sich über deinen Besuch!</small></h1>
+        <br><h1 style="font-style: oblique"><b><small>Der </small>Welser Faltbootverein <small>freut sich über deinen Besuch!</small></b></h1>
     </div>
-
 </div>
 
 <!-- Page Content -->
@@ -22,18 +21,21 @@
 
     <!-- Heading Row -->
     <div class="row">
-        <div class="col-md-8">
-            <img class="img-responsive img-rounded" src="img/fotowandNeu.jpg" alt="Bild" style="height: auto">
+        <div class="col-md-12">
+            <img class="img-responsive img-rounded" src="img/fotowandNeu.jpg" alt="Bild">
         </div>
-        <!-- /.col-md-8 -->
-        <div class="col-md-4">
-            <div class="well text-capitalize">
-                <p style="display: inline">Auf unserer Homepage <div class="hidden-sm hidden-md hidden-lg visible-xs-inline">und auf <a target="_blank" href="https://www.facebook.com/WFV-Welser-Faltbootverein-116859331726727/timeline/"><img src="img/facebook.png" style="width: 30px; height: 30px"></a></div> findest du die neuesten<div class="hidden-xs" style="display: inline"><a href="#aktuell"><img src="img/facebook.png" style="width: 30px; height: 30px"></a></div> Meldungen und <a class="btn btn-success" href="#aktuell">Aktuelle Berichte</a> über kommende und bereits vergangene Ausfahrten unserer Vereinsmitglieder, sowie Infos zu
-                den bevorstehenden <a class="btn btn-success" href="#events">Events</a>
-                <br><br> Das aktuelle Fahrtenprogramm gibts inkl. Kalender mit allen Terminen als <a class="btn btn-info" id="downloadLink" href="downloads/WFV-Fahrtenprogramm.pdf" target="_new" type="application/octet-stream" download="WFV-Fahrtenprogramm.pdf">Download</a></p>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <h4>Auf unserer Homepage <div class="hidden-sm hidden-md hidden-lg visible-xs-inline">und auf <a target="_blank" href="https://www.facebook.com/WFV-Welser-Faltbootverein-116859331726727/timeline/"><img src="img/facebook.png" style="width: 30px; height: 30px"></a></div> findest du die neuesten<div class="hidden-xs" style="display: inline"><a href="#aktuell"><img src="img/facebook.png" style="width: 30px; height: 30px"></a></div> Meldungen und <a href="#aktuell" style="text-decoration: none">Aktuelle Berichte</a> über kommende und bereits vergangene Ausfahrten unserer Vereinsmitglieder, sowie Infos zu
+                den bevorstehenden <a href="#events" style="text-decoration: none">Events</a>.
+                <br><br> Das aktuelle Fahrtenprogramm mit allen Terminen gibts hier als <a class="btn btn-lg btn-success" id="downloadLink" href="downloads/WFV-Fahrtenprogramm.pdf" target="_new" type="application/octet-stream" download="WFV-Fahrtenprogramm.pdf">Download</a></h4>
             </div>
         </div>
-        <!-- /.col-md-4 -->
     </div>
     <!-- /.row -->
+    <!--Section wegen Navbaranpassung -->
+    <section class="section" id="aktuell" style="padding-bottom: 26px"></section>
     <hr>

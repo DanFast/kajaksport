@@ -36,17 +36,19 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
     $ort = $data['ort'];
     $plz = $data['plz'];
     $profilbild = $data['profilbild'];
-    $beschreibung1 = $data['beschreibung1'];
-    $beschreibung2 = $data['beschreibung2'];
-    $foto1 = $data['foto1'];
+    $beschreibung1 = $data['beschreibung'];
+    $titelbild = $data['titelbild'];
     $foto2 = $data['foto2'];
+    $gesamtkilometer = $data['gesamtkilometer'];
 
     $mysqli->close();
 
-    include "inc/nav-login-success.php";
-    include "inc/login-success-pageheader-inc.php";
-    include "inc/profil-bearbeiten-body-inc.php";
-    include "inc/profil-bearbeiten-body-js.php";
+
+
+        include "inc/nav-login-success.php";
+        include "inc/login-success-pageheader-inc.php";
+        include "inc/profil-bearbeiten-body-inc.php";
+        include "inc/profil-bearbeiten-body-js.php";
 
 } else {
     $host  = htmlspecialchars($_SERVER["HTTP_HOST"]);

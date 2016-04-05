@@ -22,16 +22,15 @@
             <a class="btn btn-success btn-lg center-block" href="" style="margin-top: 30px">Fotos anzeigen</a>
         </div>
     </div>
-
+    <!--Section wegen Navbaranpassung -->
+    <section class="section" id="kontakt" style="padding-bottom: 30px"></section>
     <hr>
 
 </div>
 <!-- /END THE FEATURETTES -->
 
 <!-- Kontakt -->
-<!--Section wegen Navbaranpassung -->
-<section class="section" id="kontakt" style="padding-bottom: 20px"></section>
-<div class="container">
+<div class="well">
     <div class="page-header">
         <h2>Kontakt</h2>
     </div><!-- End Page Header-->

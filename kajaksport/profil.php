@@ -14,6 +14,7 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
 
     $email = $_SESSION["emailSession"];
 
+
     /*  Speicherung der Userdaten welecher erfolgreich eingeloggt ist, von Datenbank in "globale" Variablen
             die in den includes dann zur Verfügung stehen*/
 
@@ -27,6 +28,9 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
     $_SESSION["favcolor"] = "green";
     $_SESSION["favanimal"] = "cat";
     */
+
+    $_SESSION["mitgliedID"] = $data['mitgliedID'];
+    $_SESSION["titelbild"] = $data['titelbild'];
     $nachname = $data['nachname'];
     $vorname  = $data['vorname'];
     $passwort = $data['passwort'];
@@ -36,17 +40,20 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
     $ort = $data['ort'];
     $plz = $data['plz'];
     $profilbild = $data['profilbild'];
-    $beschreibung1 = $data['beschreibung1'];
-    $beschreibung2 = $data['beschreibung2'];
-    $foto1 = $data['foto1'];
+    $beschreibung1 = $data['beschreibung'];
+    $titelbild = $data['titelbild'];
     $foto2 = $data['foto2'];
+    $gesamtkilometer = $data['gesamtkilometer'];
 
     $mysqli->close();
 
-    include "inc/nav-login-success.php";
-    include "inc/login-success-pageheader-inc.php";
-    include "inc/profil-body-inc.php";
-    include "inc/index-body-js-inc.php";
+
+
+        include "inc/nav-login-success.php";
+        include "inc/login-success-pageheader-inc.php";
+        include "inc/profil-body-inc.php";
+        include "inc/index-body-js-inc.php";
+
 
 } else {
     $host  = htmlspecialchars($_SERVER["HTTP_HOST"]);

@@ -41,15 +41,15 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
 
     include "inc/nav-login-success.php";
     include "inc/login-success-pageheader-inc.php";
-    include "inc/index-body-aktuell-events-inc.php";
+    include "inc/index-body-aktuell-inc.php";
     include "inc/index-body-bootshaus-kontakt-inc.php";
     include "inc/index-body-footer-inc.php";
     include "inc/index-body-js-inc.php";
 
 }else{
-    include "inc/index-body-nav-loginfail-inc.php";
+    include "inc/index-body-nav-inc.php";
     include "inc/index-body-pageheader-inc.php";
-    include "inc/index-body-aktuell-events-inc.php";
+    include "inc/index-body-aktuell-inc.php";
     include "inc/index-body-bootshaus-kontakt-inc.php";
     include "inc/index-body-footer-inc.php";
     include "inc/index-body-js-inc.php";

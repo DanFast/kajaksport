@@ -25,11 +25,11 @@ $mysqli->close();
 <div class="container">
 
     <div class="row">
-        <form action="controller/pinnwand-eintrag.php" class="form-horizontal" enctype="multipart/form-data" method="get" style="padding-top: 20px">
+        <form action="controller/pinnwand-eintrag-con.php" class="form-horizontal" enctype="multipart/form-data" method="post" style="padding-top: 20px">
             <div class="col-lg-6 col-lg-offset-3">
                 <div class="form-group">
-                    <label for="sel1">Kategorie:</label>
-                    <select class="form-control" id="sel1" required="">
+                    <label for="pwkategorie">Kategorie:</label>
+                    <select class="form-control" name="pwkategorie" id="pwkategorie" required="">
                         <option>Verkaufe</option>
                         <option>Suche</option>
                         <option>Gefahrenhinweis</option>
@@ -38,18 +38,18 @@ $mysqli->close();
                 </div>
 
                 <div class="form-group">
-                    <label for="titel">Titel</label>
-                    <input type="text" class="form-control" id="titel" placeholder="Titel" required="">
+                    <label for="pwtitel">Titel</label>
+                    <input type="text" class="form-control" name="pwtitel" id="pwtitel" placeholder="Titel" required="">
                 </div>
 
                 <div class="form-group">
-                    <label for="posting" class="control-label">Text</label>
-                    <textarea name='user-posting' id='posting' class='form-control' cols='20' rows='5' placeholder='Schreibe hier etwas' required=""></textarea>
+                    <label for="pwbeschreibung" class="control-label">Text</label>
+                    <textarea name='pwtext' id='pwtext' class='form-control' cols='20' rows='5' placeholder='Schreibe hier etwas' required=""></textarea>
                 </div><!-- End form group-->
 
                 <div class="form-group">
                     <label for="bild">Foto (Optional)</label>
-                        <input type='file' name='bild' id='profilbild' accept='image/*' onchange='loadFoto(event)'>
+                        <input type='file' name='pinnwandbild' id='pinnwandbild' accept='image/*' onchange='loadFoto(event)'>
                     <div class="media">
                         <div class="media-left">
                             <img id="bildviewsm" style="max-height: 100px; max-width: 100px" class="media-object">
@@ -73,8 +73,6 @@ $mysqli->close();
                         <button type="submit" class="btn btn-success btn-block" id="speichern">Speichern</button>
                     </div>
                 </div>
-
-
             </div>
         </form>
     </div>
@@ -103,19 +101,14 @@ $mysqli->close();
             </div>
 
             <div class="modal-body">
-                <div class="col-md-12">
-                    Kategorie:<h4 id="katview"></h4><br>
-                </div>
-                <div class="col-md-12">
-                    Titel:<h4 id="titelview"></h4><br>
+                <div class="col-md-6">
+                    <h4><b>Kategorie: </b></h4><h4 id="pwkategorieview"></h4><br>
+                    <h4><b>Titel: </b></h4><h4 id="pwtitelview"></h4><br>
+                    <h4><b>Beschreibung: </b></h4><h4 id="pwtextview"></h4>
                 </div>
                 <div class="row featurette" style="padding: 20px">
                     <div class="col-md-6">
-                        <img id='bildview' style='padding-top: 5px' class='featurette-image img-responsive' alt='Foto'>
-                    </div>
-
-                    <div class="col-md-6">
-                        <h4 id="postingview"></h4>
+                        <img id='bildview' style='padding-top: 5px' class='featurette-image img-responsive' alt='Kein Foto'>
                     </div>
                 </div>
             </div>

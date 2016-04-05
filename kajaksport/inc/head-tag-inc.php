@@ -10,7 +10,8 @@
     <!-- DatePicker -->
     <link href="css/datepicker.css" rel="stylesheet">
     <!-- Stylesheet -->
-    <link href="css/mycss.css" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet" type="text/css">
+    <link href="css/mycss.php" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

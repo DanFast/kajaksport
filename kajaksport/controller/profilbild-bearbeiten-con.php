@@ -1,9 +1,10 @@
 <?php
 session_start();
 $email = $_SESSION["emailSession"];
+$mitgliedID = $_SESSION["mitgliedID"];
+if (isset($_FILES["profilbild"]) AND ! $_FILES["profilbild"]["error"]  AND  ($_FILES["profilbild"]["size"] < 5000000 )) {
 
-if (isset($_FILES["profilbild"]) AND ! $_FILES["profilbild"]["error"]  AND  ($_FILES["profilbild"]["size"] < 300000 )) {
-    echo "Hier komme ich rein!!";
+
     $bildinfo = getimagesize($_FILES["profilbild"]["tmp_name"]);
     if ($bildinfo === false) {
         die("kein Bild");
@@ -20,15 +21,26 @@ if (isset($_FILES["profilbild"]) AND ! $_FILES["profilbild"]["error"]  AND  ($_F
             $endung = $mimetypen[$mime];
         }
 
-        $neuername = basename($_FILES["profilbild"]["name"]);
-        $neuername = preg_replace("/\.(jpe?g|gif|png)$/i", "", $neuername);
-        $neuername = preg_replace("/\.(JPE?G|GIF|PNG)$/i", "", $neuername);
-        $neuername = preg_replace("/[^a-zA-Z0-9_-]/", "", $neuername);
+        $neuername = "Profilbild";
         $neuername .= ".$endung";
-        $ziel = "../img/upload/$neuername";
+
+
+        if(!is_dir("../img/upload/user/$mitgliedID")){
+
+            mkdir("../img/upload/user");
+            mkdir("../img/upload/user/$mitgliedID");
+        }
+
+        if (is_file("../img/upload/user/$mitgliedID/$neuername"))
+        {
+            unlink("../img/upload/user/$mitgliedID/$neuername");
+        }
+
+        $ziel = "../img/upload/user/$mitgliedID/$neuername";
+
         while (file_exists($ziel)) {
             $neuername = "kopie_$neuername";
-            $ziel = "../img/upload/$neuername";
+            $ziel = "../img/upload/$email/$neuername";
             //echo $ziel;
         }
         //echo "Bis hier läufts";
@@ -42,7 +54,8 @@ if (isset($_FILES["profilbild"]) AND ! $_FILES["profilbild"]["error"]  AND  ($_F
             $resultTrue = $profilbildDao->insertProfilbild($ziel, $email);
 
             if($resultTrue){
-                header("Location: http://localhost/kajaksport/profil.php");
+
+                header("Refresh:0.1; url=http://localhost/kajaksport/profil.php");
             }else{
                 echo "Fehler beim speichern des Profilbilds in die Datenbank!!";
             }
@@ -52,7 +65,7 @@ if (isset($_FILES["profilbild"]) AND ! $_FILES["profilbild"]["error"]  AND  ($_F
         }
     }
 }else{
-    echo "Dateiupload hat nicht geklappt!!!!!!!!!!!!!!!!!";
+    echo "Dateiupload hat nicht geklappt!!!!!!!!!!!!!!!!!?????";
 }
 
 
@@ -68,25 +81,10 @@ class ProfilbildDao{
         }
 
         /*
-         * Alten Bildpfad aus DB auslesen und Bild aus Filesystem löschen
-         **/
-        $sql = "SELECT profilbild FROM mitglied WHERE email = '$email'";
-
-        $erg = $mysqli->query($sql);
-        $data = $erg->fetch_array();
-        $pfadProfilbildAlt = $data['profilbild'];
-
-        if (is_file("../".$pfadProfilbildAlt))
-        {
-            unlink("../".$pfadProfilbildAlt);
-        }
-
-        /*
          * Bildpfad von neuem Profilbild in DB speichern
          * */
-        $profilbildpfad = $profilbildZiel;
 
-        $sql = "UPDATE `kajaksport`.`mitglied` SET `profilbild` = '$profilbildpfad' WHERE `mitglied`.`email` = '$email'";
+        $sql = "UPDATE `kajaksport`.`mitglied` SET `profilbild` = '$profilbildZiel' WHERE `mitglied`.`email` = '$email'";
 
         /*$beschreibung = "beschreibung testen insterten";
         $sql = "UPDATE `kajaksport`.`mitglied` SET `beschreibung1` = 'testbeschreibung' WHERE `mitglied`.`email` = 'jan@kajaksport.at'";
